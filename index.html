@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spatial Computing</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    html, body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background-color: #FFF2F2;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: url('HeadComputing.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #2D336B;
+      padding: 100px 20px 40px;
+      text-align: center;
+      position: relative;
+      font-size: 25px;
+    }
+    nav {
+      background-color: rgba(75, 56, 112, 0.9);
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 10px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: #fff;
+      margin: 5px 15px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #2D336B;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #4b3870;
+      margin-bottom: 10px;
+    }
+    .parallax {
+      min-height: 300px;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: 40px 0;
+    }
+    .contact {
+      background-color: #f0ebf8;
+      padding: 15px;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+    .template-box {
+      background: rgba(255, 255, 255, 0.9);
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      padding: 15px;
+      margin-top: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(75, 56, 112, 0.1);
+      transition: transform 0.3s;
+    }
+    .template-box:hover {
+      transform: translateY(-5px);
+    }
+    .template-box ul {
+      padding-left: 20px;
+    }
+    .sparkle {
+      font-size: 1.2rem;
+      color: #a363d1;
+    }
+    .video-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      max-width: 100%;
+      background: #000;
+      margin-top: 20px;
+    }
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #4b3870;
+      color: white;
+      font-size: 0.9rem;
+    }
+    .back-to-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #4b3870;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+      transition: background 0.3s;
+    }
+    .back-to-top:hover {
+      background: #a363d1;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Spatial Computing</h1>
+    <p>By Katie Hernandez | Computer Technology ✨</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#template">Details</a>
+    <a href="#resume">Resume</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="parallax" style="background-image: url('healthcareSpatial.jpg');"></div>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm <strong>Katie Hernandez</strong>, a senior at Carl Wunsche High School and ranked in the top 4% of my class. I’m passionate about computer science and technology's power to create real change. I plan to major in Computing at Texas A&M and dream of building innovative tools that make healthcare smarter, faster, and more human. 💻💡</p>
+    <p class="sparkle">✨ Certifications: Mobile App Dev, Google IT, Cybersecurity, Networking</p>
+    <p class="sparkle">✨ Clubs: Mu Alpha Theta VP, Key Club, SNHS, NHS</p>
+  </section>
+
+  <div class="parallax" style="background-image: url('technologySpatial.webp');"></div>
+
+  <section id="research">
+    <h2>What is Spatial Computing?</h2>
+    <p>Spatial computing refers to the technologies that bridge the physical and digital worlds by integrating sensors, data processing, artificial intelligence, and immersive interfaces. It allows users and machines to interact with real-world environments using augmented reality (AR), virtual reality (VR), and mixed reality (MR). Applications range from healthcare and education to defense and industrial automation.</p>
+    <br>
+    <h3>Key Industries Utilizing Spatial Computing:</h3>
+    <ul>
+      <li><strong>Healthcare:</strong> Enhances surgery, rehabilitation, diagnostics, and medical training with immersive and AI-driven tools. <a href="https://www.hurix.com/blogs/training-the-doctors-of-tomorrow-with-ai-and-immersive-tech/" target="_blank">(hurix digital)</a></li>
+      <li><strong>Technology:</strong> Empowers AR/VR applications, autonomous systems, and natural user interfaces. <a href="https://globalresearchandinnovationpublications.com/HCI/article/view/57" target="_blank">(Human Computer Interaction)</a></li>
+      <li><strong>Manufacturing:</strong> Uses digital twins and AR interfaces to increase efficiency and safety in operations. <a href="https://www.sciencedirect.com/science/article/pii/S277266222300005X" target="_blank">(Science Direct)</a></li>
+      <li><strong>Education:</strong> Engages students in STEM and humanities through immersive learning platforms. <a href="https://www.teachmaverick.com/vr-stem/" target="_blank">(Teach Maverick)</a></li>
+      <li><strong>Construction:</strong> Assists in project planning, safety simulations, and progress visualization. <a href="https://www.sciencedirect.com/science/article/pii/S1877705817303399" target="_blank">(Science Direct)</a></li>
+      <li><strong>Retail:</strong> Transforms shopping through virtual try-ons, personalized navigation, and spatial product placement. <a href="https://arinsider.co/2025/03/03/snap-virtual-try-ons-are-a-new-lens-on-shopping/" target="_blank">(AR Insider)</a></li>
+      <li><strong>Aerospace:</strong> Utilizes mixed-reality simulations for mission training and spacecraft design. <a href="https://www.nasa.gov/reference/jsc-simulation-modeling/" target="_blank">(NASA)</a></li>
+    </ul>
+    <br>
+    <br>
+    <h3>Video Example</h3>
+    <div class="video-container">
+      <iframe src="https://www.youtube.com/embed/vHsin90g6L8" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <div class="parallax" style="background-image: url('constructionSpatial.jpg');"></div>
+
+  <section id="template">
+    <h2>Project Details</h2>
+    <div class="template-box">
+      <h3>What is Spatial Computing?</h3>
+      <p>It’s the blending of the digital and physical world through AI, AR, and VR. In healthcare, it lets doctors interact with 3D models of the body and analyze real-time data to make better decisions.</p>
+    </div>
+    <div class="template-box">
+      <h3>Key Features</h3>
+      <ul>
+        <li>Simulations using digital twins</li>
+        <li>Multimodal AI analysis (data + scans + history)</li>
+        <li>AR-guided surgeries & VR-assisted rehab</li>
+        <li>Cloud-based patient record access</li>
+      </ul>
+    </div>
+    <div class="template-box">
+      <h3>Why It Matters</h3>
+      <p>Over 200,000 patients die annually due to preventable errors. AI-powered spatial computing can help reduce these numbers by improving speed and accuracy in diagnoses and care.</p>
+    </div>
+    <div class="template-box">
+      <h3>Research Support</h3>
+      <ul>
+        <li>UC San Diego Health: Apple Vision trial for AR surgery</li>
+        <li>PMC: AI-powered imaging + personalized care plans</li>
+        <li>Stanford: Spatial computing pilot in surgical use</li>
+      </ul>
+    </div>
+    <div class="template-box">
+      <h3>Fun Add-On</h3>
+      <p class="sparkle">✨ I believe tech should be functional <em>and</em> fun! That’s why I’m exploring how to make digital health tools feel intuitive and efficient for people ✨</p>
+    </div>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <div class="template-box">
+      <p>Download my resume or view it online to learn more about my experience, certifications, projects, and skills.</p>
+      <p><strong>📄 View/Download:</strong> <a href="https://docs.google.com/document/d/1x-uCRSRIbcyp0idd-MEhnU5t7NsFP0oFoh9mFPFM3Ww/edit?usp=sharing">katie-hernandez-resume.pdf</a></p>
+      <p><strong>💼 Highlights:</strong></p>
+      <ul>
+        <li>Spring ISD Internship</li>
+        <li>Mobile App Developer Certification</li>
+        <li>Projects Sustainamal, Go Green, CYOA</li>
+        <li>Programming Skills: Python, JavaScript, HTML/CSS, Swift</li>
+        <li>Soft Skills: Leadership, Teamwork, Adaptability</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Info</h2>
+    <div class="contact">
+      <p><strong>Email:</strong> katieh.r.548@gmail.com</p>
+      <p><strong>Portfolio:</strong> <a href="https://github.com/Katie548">your-portfolio-link.com</a></p>
+      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/katiehdz/">linkedin.com/in/katiehernandez</a></p>
+    </div>
+  </section>
+
+  <div class="parallax" style="background-image: url('parallax-education.jpg');"></div>
+
+  <a href="#" class="back-to-top">↑ Top</a>
+  <footer class="footer">
+    &copy; 2025 Katie Hernandez. All rights reserved.
+  </footer>
+</body>
+</html>
